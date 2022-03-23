@@ -1,27 +1,30 @@
 cookiecutter-python-analysis
 ==============================
 
-Cookiecutter inspired template for Python analysis projects
+Cookiecutter inspired template for CorrelAid Python analysis projects.
+<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
-Project Organization
+# What is this project about?
+summarize in three sentences what this project is about and what central features it has.
+# Setup 
+## Project Organization
 ------------
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    ├── data                <- see README in data folder
+    │   ├── processed_gdpr        
+    │   ├── processed     
+    │   └── raw        
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    │                         and a short `-` delimited description, e.g.
+    │                         `01-data-exploration`.
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
@@ -54,4 +57,45 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+## Installing Packages
+
+How can a environment for your project be created/updated? 
+
+Please make sure that the setup steps are:
+
+- platform-independent (e.g. be aware of issues [like this](https://stackoverflow.com/questions/41274007/anaconda-export-environment-file)), at least MacOS and Windows (this is important in case CorrelAid employees have to provide support after the project has ended.
+- computer-independent: must work for all team members!
+
+## Data
+
+You need the following data files in order to run this project: 
+
+_include output from `tree` command (or similar on windows)_
+# Developer information
+[the following can also be moved to the wiki if you decide to have one]
+
+## Definition of Done
+
+## Code styling
+
+# How to operate this project?
+[the following can also be moved to the wiki if you decide to have one]
+
+explain how the output(s) of this project can be handled/operated, for example:
+
+- how to create reports
+- where to create/find the data visualizations 
+- how to update data 
+- what would need to be updated if someone wanted to re-run your analysis with different data
+
+# Limitations
+
+be honest about the limitations of your project, e.g.: 
+
+- methodological: maybe another model would be more suitable?
+- reproducibility: what are limits of reproducibility? is there something hard-coded/specific to the data that you used?
+- best practices: maybe some code is particularly messy and people working on it in the future should know about it in advance?
+
+
